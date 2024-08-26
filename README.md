@@ -14,40 +14,44 @@
 
 #### *3. Clonación del repositorio forkeado*
    - *Paso 4*: Clona/Descarga el repositorio forkeado en tu máquina local.
-     bash
+     ```bash
      git clone https://github.com/tu-usuario/repositorio.git
+     ```
      
    - *Paso 5*: Entra en el directorio del repositorio.
-     bash
-     cd repositorio
-     
+
+      ```bash
+      cd repositorio
+      ```
 
 #### *4. Creación de una nueva rama*
    - *Paso 6*: Crea una nueva rama para trabajar en los cambios.
-     bash
-     git checkout -b mi-nueva-rama
+      ```bash
+      git checkout -b mi-nueva-rama
+      ```
      
 
 #### *5. Realizar cambios en el código*
    - *Paso 7*: Haz los cambios necesarios en los archivos de tu proyecto.
    - *Paso 8*: Verifica el estado de tus cambios.
-     bash
-     git status
-     
+      ```bash
+      git status
+      ```
    - *Paso 9*: Agrega los cambios al área de preparación (staging area).
-     bash
+     ```bash
      git add .
+     ```
      
    - *Paso 10*: Haz un commit con un mensaje descriptivo.
-     bash
+     ```bash
      git commit -m "Descripción de los cambios"
-     
+     ```
 
 #### *6. Subir los cambios a GitHub*
    - *Paso 11*: Empuja (push) los cambios a la rama que creaste en tu repositorio remoto en GitHub.
-     bash
+     ```bash
      git push origin mi-nueva-rama
-     
+     ```
 
 #### *7. Crear un Pull Request*
    - *Paso 12*: Navega a tu repositorio en GitHub.
