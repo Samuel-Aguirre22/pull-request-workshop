@@ -5,10 +5,15 @@
    - *Requisitos previos*: 
      - Tener una cuenta en GitHub.
      - Tener instalado Git en tu máquina.
+     - Asegurate de haber agregado tu nombre y tu email en la configuración de git:
+      ```bash
+        git config user.name "John Doe"
+        git config user.email johndoe@example.com
+      ```
      - Conocimientos básicos de Git (clonar, agregar, hacer commit, etc.).
 
 #### *2. Realizar un fork del repositorio*
-   - *Paso 1*: Entra en el repositorio original en GitHub.
+   - *Paso 1*: Entra en el repositorio original en GitHub (Para este ejemplo, puedes omitir este paso).
    - *Paso 2*: Haz clic en el botón "Fork" en la esquina superior derecha.
    - *Paso 3*: Esto creará una copia del repositorio en tu propia cuenta de GitHub.
 
